@@ -14,7 +14,7 @@ Bu proje, web sayfalarının anlık görüntülerini (**snapshot**) alıp bunlar
 
 ## ⚙️ Özellikler
 - Kali Linux içinde test edilmiştir
-- Önce capture_snapshot.py dosyası iki kez çalıştırılır (farklı zamanlarda / farklı çıktılarla)
+- Önce capture_snapshot.py dosyası iki kez çalıştırılır (farklı zamanlarda / farklı çıktılarla). Ayrı ayrı birden fazla çalışıtırılarak url'lerin kıyaslanması için birden fazla sonuç alınır.
 - Sonrasında bu iki JSON çıktısı compare_snapshots.py ile kıyaslanır.
 - Tek bir URL için snapshot alma
 - Dosyadan birden fazla URL okuma ve snapshot kaydetme
@@ -39,7 +39,7 @@ python3 capture_snapshot.py capture --url https://example.com --out snapshots/ex
 ```
 
 ### 2. Birden Fazla URL (Dosyadan Okuma)
-Bir dosyadan tek seferlik snapshot almak için:
+Bir dosyadan alt alta yazılı url bilgileri ile tek seferlik snapshot almak için:
 
 ```bash
 python3 capture_snapshot.py capture --file urls.txt --out-dir snapshots/
