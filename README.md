@@ -2,7 +2,7 @@
 
 Bu proje, web sayfalarının anlık görüntülerini (**snapshot**) alıp bunları JSON formatında kaydetmenizi ve daha sonra farklı zamanlarda alınmış snapshot'ları karşılaştırarak değişiklikleri analiz etmenizi sağlar.  
 
-⚠️**Dikkat: Script'in deneme videosu eklenecektir!** Bu script yalnızca **legal çalışma, öğrenme ve test amaçlıdır**. Herhangi bir **illegal kullanım** tamamen kullanıcı sorumluluğundadır. Script sahibinin bu eylemlerden **hiçbir sorumluluğu yoktur**.
+⚠️**Dikkat: Script'in çalıştırma videosu eklenecektir!** Bu script yalnızca **legal çalışma, öğrenme ve test amaçlıdır**. Herhangi bir **illegal kullanım** tamamen kullanıcı sorumluluğundadır. Script sahibinin bu eylemlerden **hiçbir sorumluluğu yoktur**.
 
 ## 📂 İçindekiler
 - `capture_snapshot.py`: Web sayfalarından snapshot alma aracı  
